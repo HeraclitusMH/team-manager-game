@@ -1,4 +1,4 @@
-package com.lucaippolito.game.skill;
+package com.lucaippolito.game.developer.skill;
 
 public class Skill {
     private String skillName;

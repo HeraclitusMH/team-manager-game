@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2ef1ce1-ef17-48e8-b594-e2d0f3cd6ec2" name="Default Changelist" comment="" />
+    <list default="true" id="d2ef1ce1-ef17-48e8-b594-e2d0f3cd6ec2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/AbstractAttributeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/AbstractPersonalAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/IAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/PersonalStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/PersonalTrait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/TraitFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/psychological/status/SinglePsychologicalStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/psychological/status/single/status/Tense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/singleTrait/Optimistic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/singleTrait/Raging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/singleTrait/SingleTraitType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lucaippolito/game/developer/skill/SkillMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lucaippolito/game/developer/skill/technical/TechnicalSkill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lucaippolito/game/developer/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lucaippolito/game/developer/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lucaippolito/game/skill/Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lucaippolito/game/developer/skill/Skill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lucaippolito/game/skill/SkillMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lucaippolito/game/soft/skill/SoftSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lucaippolito/game/developer/skill/soft/SoftSkill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lucaippolito/game/technical/skill/ProgrammingLanguages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lucaippolito/game/technical/skill/TechnicalSkill.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,66 +38,46 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/IAttribute.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/Developer.java">
+        <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/singleTrait/Optimistic.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/singleTrait/Raging.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/technical/skill/TechnicalSkill.java">
+        <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/AbstractAttributeFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="204">
+              <caret line="12" column="65" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/technical/skill/ProgrammingLanguages.java">
+        <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/TraitFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/skill/Skill.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding>
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/skill/SkillMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            <state relative-caret-position="221">
+              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,22 +86,53 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/anagraphic/Anagraphic.java">
+        <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/psychological/status/SinglePsychologicalStatus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="85">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/psychological/status/single/status/Tense.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/singleTrait/SingleTraitType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/AbstractPersonalAttribute.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="47" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="47" />
+              <folding>
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/PersonalStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -109,10 +142,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -129,8 +166,39 @@
         <option value="$PROJECT_DIR$/src/com/lucaippolito/game/skill/Skill.java" />
         <option value="$PROJECT_DIR$/src/com/lucaippolito/game/soft/skill/SoftSkill.java" />
         <option value="$PROJECT_DIR$/src/com/lucaippolito/game/skill/SkillMap.java" />
-        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/Developer.java" />
         <option value="$PROJECT_DIR$/src/com/lucaippolito/game/technical/skill/TechnicalSkill.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/TechnicalSkill.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/skill/SoftSkill.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/skill/soft/SoftSkill.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/SkillMap.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/skill/SkillMap.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/skill/TechnicalSkill.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/skill/technical/TechnicalSkill.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/trait/PersonalTraitInterface.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/trait/Raging.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/trait/Optimistic.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/trait/singleTrait/SingleTraitType.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/trait/PersonalTraitFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/trait/PersonalTrait.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/temporary/psychological/status/TemporaryPsychologicalStatus.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/Developer.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/trait/singleTrait/Raging.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/trait/IPersonalTrait.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/IPersonalTrait.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/IAttributeEnum.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/PersonalAttribute.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/AbstractPersonalAttribute.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/PersonalStatus.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/PersonalTrait.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/PersonalAttributeFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/psychological/status/SinglePsychologicalStatus.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/singleTrait/SingleTraitType.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/singleTrait/Optimistic.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/singleTrait/Raging.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/psychological/status/single/status/Tense.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/AbstractAttributeFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/TraitFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/IAttribute.java" />
       </list>
     </option>
   </component>
@@ -140,6 +208,7 @@
     <option name="width" value="1364" />
     <option name="height" value="728" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -151,11 +220,6 @@
             <path>
               <item name="teamManagerGame" type="b2602c69:ProjectViewProjectNode" />
               <item name="TeamManagerGame" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="teamManagerGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TeamManagerGame" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="teamManagerGame" type="b2602c69:ProjectViewProjectNode" />
@@ -187,7 +251,26 @@
               <item name="TeamManagerGame" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="skill" type="462c0819:PsiDirectoryNode" />
+              <item name="developer" type="462c0819:PsiDirectoryNode" />
+              <item name="attribute" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teamManagerGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeamManagerGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="developer" type="462c0819:PsiDirectoryNode" />
+              <item name="attribute" type="462c0819:PsiDirectoryNode" />
+              <item name="status" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teamManagerGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeamManagerGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="developer" type="462c0819:PsiDirectoryNode" />
+              <item name="attribute" type="462c0819:PsiDirectoryNode" />
+              <item name="singleTrait" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,6 +281,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -274,12 +358,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579184734593</updated>
-      <workItem from="1579184737486" duration="8094000" />
+      <workItem from="1579184737486" duration="23329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8094000" />
+    <option name="totallyTimeSpent" value="23329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1616" height="876" extended-state="6" />
@@ -290,7 +374,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -300,7 +384,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3375" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3375" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -338,13 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/anagraphic/Anagraphic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -364,24 +441,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/technical/skill/ProgrammingLanguages.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/skill/technical/TechnicalSkill.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="32" />
+        <state relative-caret-position="51">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/soft/skill/SoftSkill.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="51">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/skill/Skill.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/skill/Skill.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
           <folding>
             <element signature="e#313#314#0" expanded="true" />
             <element signature="e#357#358#0" expanded="true" />
@@ -393,10 +473,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/skill/SkillMap.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/skill/technical/TechnicalSkill.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/skill/soft/SoftSkill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/skill/SkillMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -406,20 +500,128 @@
     <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/Developer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/PersonalAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/technical/skill/TechnicalSkill.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/psychological/status/TemporaryPsychologicalStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/PersonalTrait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/PersonalAttributeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/IAttributeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/PersonalStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/AbstractPersonalAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="47" />
+          <folding>
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/singleTrait/SingleTraitType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/psychological/status/single/status/Tense.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/psychological/status/SinglePsychologicalStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/IAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/singleTrait/Raging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/singleTrait/Optimistic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/TraitFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lucaippolito/game/developer/personal/attribute/AbstractAttributeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="65" />
         </state>
       </provider>
     </entry>

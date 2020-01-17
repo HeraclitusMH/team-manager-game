@@ -1,4 +1,4 @@
-package com.lucaippolito.game.soft.skill;
+package com.lucaippolito.game.developer.skill.soft;
 
 public enum SoftSkill {
     COMMUNICATION,
